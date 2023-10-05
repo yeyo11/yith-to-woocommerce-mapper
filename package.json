@@ -1,0 +1,20 @@
+{
+  "name": "yith-to-woocommerce-mapper",
+  "version": "1.0.0",
+  "description": "A tool to map Yith subscriptions to WooCommerce Subscriptions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": ["yith", "woocommerce", "subscription", "mapper"],
+  "author": "yeyo11",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mariadb": "^3.2.1",
+    "papaparse": "^5.4.1",
+    "stripe": "^13.8.0"
+  }
+}
